@@ -14,7 +14,8 @@
     <ItemGroup>
       <Folder Include="Dtos\" />
       <Folder Include="EntityServices\" />
-      <Folder Include="Mappers\" />
+      <Folder Include="Hasher\" />
+      <Folder Include="Mapper\" />
     </ItemGroup>
 
     <ItemGroup>
