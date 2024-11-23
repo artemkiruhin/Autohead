@@ -23,7 +23,9 @@ public class CarEntity
     
     public Guid ColorId { get; set; }
     public virtual ColorEntity Color { get; set; } = null!;
-    
+
+    public ICollection<OrderEntity> Orders { get; set; } = new List<OrderEntity>();
+
     public static CarEntity Create(string name, decimal to100, decimal to200, decimal price, Guid typeId, Guid manufacturerId, Guid engineId, Guid driveId, Guid colorId)
     {
         return new CarEntity()

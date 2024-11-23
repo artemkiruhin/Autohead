@@ -7,7 +7,7 @@ public class CustomerEntity
     public required string Email { get; set; }
     public required string Phone { get; set; }
 
-    public ICollection<OrderEntity> Orders = new List<OrderEntity>();
+    public ICollection<OrderEntity> Orders { get; set; } = new List<OrderEntity>();
     
     public static CustomerEntity Create(string name, string email, string phone)
     {
