@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHead.FrontendMvcApp", "AutoHead.FrontendMvcApp\AutoHead.FrontendMvcApp.csproj", "{93AB3C59-5791-4584-9DA9-AAB29CEC33D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHead.Core", "AutoHead.Core\AutoHead.Core.csproj", "{9A8E5BB1-AC84-46DC-A41D-2BDF50318187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHead.Application", "AutoHead.Application\AutoHead.Application.csproj", "{66A288B8-E089-4411-99A5-6D2A02D9B889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHead.DataAccess.PostgreSQL", "AutoHead.DataAccess.PostgreSQL\AutoHead.DataAccess.PostgreSQL.csproj", "{D8C72602-BB33-4E76-B153-2C5362FC5789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93AB3C59-5791-4584-9DA9-AAB29CEC33D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AB3C59-5791-4584-9DA9-AAB29CEC33D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AB3C59-5791-4584-9DA9-AAB29CEC33D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AB3C59-5791-4584-9DA9-AAB29CEC33D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8E5BB1-AC84-46DC-A41D-2BDF50318187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8E5BB1-AC84-46DC-A41D-2BDF50318187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8E5BB1-AC84-46DC-A41D-2BDF50318187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8E5BB1-AC84-46DC-A41D-2BDF50318187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A288B8-E089-4411-99A5-6D2A02D9B889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A288B8-E089-4411-99A5-6D2A02D9B889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A288B8-E089-4411-99A5-6D2A02D9B889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A288B8-E089-4411-99A5-6D2A02D9B889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C72602-BB33-4E76-B153-2C5362FC5789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C72602-BB33-4E76-B153-2C5362FC5789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C72602-BB33-4E76-B153-2C5362FC5789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C72602-BB33-4E76-B153-2C5362FC5789}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
