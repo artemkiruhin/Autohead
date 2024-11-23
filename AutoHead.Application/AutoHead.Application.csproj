@@ -14,8 +14,11 @@
     <ItemGroup>
       <Folder Include="Dtos\" />
       <Folder Include="EntityServices\" />
-      <Folder Include="Jwt\" />
       <Folder Include="Mappers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.2.1" />
     </ItemGroup>
 
 </Project>
